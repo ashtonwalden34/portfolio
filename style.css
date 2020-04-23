@@ -1,0 +1,80 @@
+#container{
+    border: solid red 1px;
+    margin-top: 2%;
+    max-width: 700px;
+    max-height: 700px;
+    overflow: hidden;
+  }
+
+#containerPortfolio{
+    /*border: solid red 1px;
+    margin-top: 2%;
+    max-width: 700px;
+    max-height: 700px;
+    overflow: hidden;
+    */
+    background-color: lightgray;
+    padding: .5vw;
+    font-size: 0;
+    display: -ms-flexbox;
+    -webkit-flex-flow: row wrap; 
+    flex-flow: row wrap; 
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto; 
+    max-width: 700px;
+    margin: .5vw; 
+  }
+
+/*Homepage*/
+
+#bioHeader{
+    color: lightblue;
+
+}
+
+.AboutMeP{
+    padding-top: 10px;
+    font-size: large;
+}
+
+.footer{
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+}
+
+.selfImage{
+    width: 20%;
+    height: 20%;
+    float: left;
+    padding: 2%;
+}
+
+/*Contact page*/
+
+#contactHeader{
+    color: lightblue;
+}
+
+#portfolioHeader{
+    color: lightblue;
+}
+
+
+.portfolioImageL{
+
+    padding: 2%;  
+    
+    width: 100%; 
+  height: auto;
+}
+
+.portfolioImageR{
+    padding: 2%;  
+
+    width: 100%; 
+    height: auto;
+}
