@@ -13,7 +13,7 @@
     max-height: 700px;
     overflow: hidden;
     */
-    background-color: lightgray;
+    background-color: black;
     padding: .5vw;
     font-size: 0;
     display: -ms-flexbox;
@@ -63,18 +63,35 @@
     color: lightblue;
 }
 
-
 .portfolioImageL{
-
     padding: 2%;  
-    
     width: 100%; 
   height: auto;
 }
 
 .portfolioImageR{
     padding: 2%;  
-
     width: 100%; 
     height: auto;
 }
+
+.imageContainer{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imageTitle{
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    color: aqua;
+}
+
+.imageCredit{
+    position: absolute;
+    bottom: 1%;
+    left: 3%;
+    color: black;
+}
+
