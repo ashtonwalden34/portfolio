@@ -1,102 +1,68 @@
+html{
+    overflow-y: scrollable;
+}
+
+body{
+    background-image: url(Assets/Images/background.jpg);
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 #container{
-    border: solid red 1px;
-    margin-top: 2%;
-    max-width: 700px;
-    max-height: 700px;
+    min-width: 100%;
+    min-height: 95vh;
     overflow: hidden;
-  }
+}
 
-#containerPortfolio{
-    border: solid red 1px;
-    margin-top: 2%;
-    max-width: 100vw;
-    max-height: 1000vw;
-    overflow: hidden;
-    
-    
-    font-size: 0;
-    display: -ms-flexbox;
-    -webkit-flex-flow: row wrap; 
-    flex-flow: row wrap; 
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-flex: auto;
-    -ms-flex: auto;
-    flex: auto; 
-    max-width: 700px;
-    margin: .5vw; 
-  }
+#backgroundCredit{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: lightgray;
+}
 
-/*Homepage*/
+#nav{
+    min-width: 100vw;
+    border: solid black 1px;
+    align-content: right;
+}
+
+/* Home Page */
+#container{
+    align-content: center;
+    border: solid black 5px;
+}
 
 #bioHeader{
-    color: lightblue;
-
-}
-
-.AboutMeP{
-    padding-top: 10px;
-    font-size: large;
-}
-
-.footer{
-    height: 10%;
-    width: 100%;
-    background-color: blue;
-}
-
-.selfImage{
-    width: 20%;
-    height: 20%;
-    float: left;
-    padding: 2%;
-}
-
-/*Contact page*/
-
-#contactHeader{
-    color: lightblue;
-}
-
-
-/* Portfolio Page */
-
-#portfolioHeader{
-    color: lightblue;
-}
-
-.portfolioImageL{
-    padding: 2%;  
-    width: 100%; 
-  height: auto;
-}
-
-.imageContainer{
-    position: relative;
     text-align: center;
-    color: white;
 }
 
-.imageTitle{
-    position: absolute;
-    bottom: 10%;
-    left: 20%;
-    color: aqua;
+.bioPic{
+    float: left;
+    margin-right: 10px;
+    border: solid #ff5252 2px;
+    border-radius: 10px;
 }
 
-.imageCredit{
-    position: absolute;
-    bottom: 1%;
-    left: 3%;
-    color: black;
-  
+.aboutMe{
+    margin-top: 0px;
+    float: left;
+    font-size: 15px;
 }
 
-#imageCreditWhite{
-    position: absolute;
-    bottom: 1%;
-    left: 3%;
-    color: white;
-    font-size: relative;
+/* Apps Page */
+#appCardsContainer{
+    padding-top: 5vh;
 }
 
+#appCard{
+    border-radius: 10px;
+    border: solid #ff5252 1px;
+}
+
+#rowH{
+    height: fit-content;
+}

@@ -1,1 +1,0 @@
-var codeQuiz = document.getElementById(codeQuiz)
