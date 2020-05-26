@@ -33,14 +33,15 @@ body{
 /* Home Page */
 #container{
     align-content: center;
+    text-align: center;
 }
 
 #bioHeader{
     text-align: center;
+    text-decoration-line: underline;
 }
 
 .bioPic{
-    float: left;
     margin-right: 10px;
     border: solid #ff5252 2px;
     border-radius: 10px;
@@ -48,8 +49,20 @@ body{
 
 .aboutMe{
     margin-top: 0px;
-    float: left;
     font-size: 15px;
+}
+
+/* Resume Page */
+.resumeWrapper{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding-top: 20px;
+}
+
+#resume{
+   height: 75vh;
 }
 
 /* Contact Page */
