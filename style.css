@@ -9,6 +9,7 @@ body{
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    color: maroon;
 }
 
 #container{
@@ -28,6 +29,7 @@ body{
     min-width: 100vw;
     border: solid black 1px;
     align-content: right;
+    background-color: maroon;
 }
 
 /* Home Page */
@@ -43,13 +45,14 @@ body{
 
 .bioPic{
     margin-right: 10px;
-    border: solid #ff5252 2px;
+    border: solid maroon 2px;
     border-radius: 10px;
 }
 
 .aboutMe{
     margin-top: 0px;
     font-size: 15px;
+    color: maroon;
 }
 
 /* Resume Page */
@@ -78,7 +81,8 @@ body{
 
 #appCard{
     border-radius: 10px;
-    border: solid #ff5252 1px;
+    border: solid maroon 1px;
+    background-color: gray;
 }
 
 #rowH{
